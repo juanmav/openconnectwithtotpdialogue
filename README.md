@@ -8,7 +8,9 @@ This project was only tested on Ubuntu 18.04LTS.
 ## Getting started
 
 > git clone https://github.com/juanmav/openconnectwithtotpdialogue
+
 > cd openconnectwithtotpdialogue
+
 > npm install 
 
 If you dont have `node` installed as root run the 
