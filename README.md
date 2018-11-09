@@ -7,6 +7,8 @@ This project was only tested on Ubuntu 18.04LTS.
 
 ## Getting started
 
+> sudo apt-get install openconnect
+
 > git clone https://github.com/juanmav/openconnectwithtotpdialogue
 
 > cd openconnectwithtotpdialogue
@@ -26,8 +28,8 @@ Create a .env file it should look like this:
 
 ```$xslt
 VPN=vpn01.yourcompanyurl.com
-USERNAME=misuperuser
-PASSWORD=misuperpassword
+VPN_USERNAME=misuperuser
+VPN_PASSWORD=misuperpassword
 OPTIONTOTP=3
 TOTPSECRET=HELLOGGD52SWOWC5T
 ```

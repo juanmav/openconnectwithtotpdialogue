@@ -22,9 +22,9 @@ suppose(
     {debug: fs.createWriteStream('./debug.txt')}
 )
     .when("Username:")
-    .respond(process.env.USERNAME + '\n')
+    .respond(process.env.VPN_USERNAME + '\n')
     .when('Password:')
-    .respond(process.env.PASSWORD + '\n')
+    .respond(process.env.VPN_PASSWORD + '\n')
     .when("Enter '0' to abort.")
     .respond(process.env.OPTIONTOTP + '\n')
     .when("Enter '0' to abort.")
